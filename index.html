@@ -1,26 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gabarit</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="explostyle.css" />
 
-<body>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
     <div class="global">
-        <img src="yoda4.png" alt="yoda">
-        <div class="containerTxt">
-            <h3>Fin de la formation Web Dev<br><span>FullStack Javascript</span> </h3>
-            <h2></h2>
-            <h4 id="force">" Que la force soit avec vous ! "</h4>
-        </div>
+      <div class="containerYoda">
+        <img class="yoda" src="yoda4.png" alt="yoda" />
+      </div>
+      <div class="containerTxt">
+        <h3>
+          Fin de la formation Web Dev<br /><span>FullStack Javascript</span>
+        </h3>
+        <h2></h2>
+        <h4 id="force">" Que la force soit avec vous ! "</h4>
+      </div>
+    </div>
+    <div class="containerGameOver">
+        <h1 class="game">GAME</h1>
+        <h1 class="over">OVER</h1>
+
     </div>
 
+    <div class="rebours10">
+      <!-- <span class=" chiffres chiffre1">10</span>
+      <span class=" chiffres chiffre2">9</span>
+      <span class=" chiffres chiffre3">8</span>
+      <span class=" chiffres chiffre4">7</span>
+      <span class=" chiffres chiffre5">6</span>
+      <span class=" chiffres chiffre6">5</span>
+      <span class=" chiffres chiffre7">4</span> -->
+      <span class=" chiffres chiffre8">3</span>
+      <span class=" chiffres chiffre9">2</span>
+      <span class=" chiffres chiffre10">1</span>
+      <span class=" chiffres chiffre11">0</span>
+    </div>
+
+    <div class="container">
+      <div class="slot"></div>
+      <button class="btn-confettis">
+        <img id="logos" src="/icones/github-brands.svg" alt="" />
+      </button>
+
+
+      <!-- <div class="imagesIcones">
+            <img src="/svgtopng/apple-brands.png" alt="">
+            <img src="/svgtopng/bootstrap-brands.png" alt="">
+            <img src="/svgtopng/camera-solid.png" alt="">
+            <img src="/svgtopng/code-solid.png" alt="">
+            <img src="/svgtopng/codepen-brands.png" alt="">
+            <img src="/svgtopng/css3-alt-brands.png" alt="">
+            <img src="/svgtopng/git-brands.png" alt="">
+            <img src="/svgtopng/github-brands.png" alt="">
+            <img src="/svgtopng/html5-brands.png" alt="">
+            <img src="/svgtopng/js-brands.png" alt="">
+            <img src="/svgtopng/node-brands.png" alt="">
+            <img src="/svgtopng/react-brands.png" alt="">
+        </div> -->
+      <svg height=220 width=220 viewBox="0 -3 500 490">
+            <style>.anim-texte{transform-origin:center center;animation:anim-texte 20s infinite}@keyframes anim-texte{50%{transform:rotate(1turn)}}</style>
+            <path fill=none d="M50,250c0-110.5,89.5-200,200-200s200,89.5,200,200s-89.5,200-200,200S50,360.5,50,250" id="texte1"/>
+            <circle fill="none" cx="200" cy="200" r="120"/>
+            <text dy="40" dx="10" textLength="1240">
+            <textPath fill="white" href="#texte1">Clic | clic | clic | clic | clic | clic | </textPath>
+            </text>
+            </svg>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
 
     <script src="javascript.js"></script>
-</body>
-
+    <script src="javascriptExplo.js"></script>
+  </body>
 </html>

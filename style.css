@@ -22,6 +22,7 @@ body {
     height: 60vh;
     max-height: 60%; */
     position: absolute;
+    /* background: orange; */
     top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -29,9 +30,13 @@ body {
     flex-direction: column;
     justify-content: center;
 }
+.containerYoda{
+    margin: 0 auto;
 
-img {
+}
+.yoda {
     width: 25vw;
+    height: auto;
     max-width: 375px;
     min-width: 150px;
     /* min-width: 200px;
@@ -39,6 +44,33 @@ img {
     /* height: 50%; */
     margin: 0 auto;
     margin-bottom: 2vw;
+}
+
+.containerTxt{
+    /* background: orange; */
+}
+
+.rebours10{
+    width: 40%;
+    height: 500px;
+    /* background: orange; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+}
+.chiffres{
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    transform: translate(-50%, -50%);
+    font-size: 125rem;
+    color: white;
+    opacity: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+
 }
 
 h3 {
@@ -108,5 +140,33 @@ h2 {
         line-height: 30px;
         font-size: 2vw;
     }
+
+}
+
+
+.containerGameOver{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.game{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.358);
+    font-size: 19rem;
+    transform: translateX(-1000px);
+    opacity: 0;
+    filter: blur(10px);
+    
+}
+.over{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.358);
+    font-size: 19rem;
+    transform: translateX(1000px);
+    opacity: 0;
+    filter: blur(10px);
 
 }
